@@ -7,7 +7,7 @@ def add_num(a, b):
     return a + b
 
 # เขียน unittest ก่อน
-class MyTest(unittest.TestCase):
+class TestCase(unittest.TestCase):
 
     def test_add_first(self):           #เขียนเพื่อให้ผ่าน           [2]
         self.assertEqual(3,3)
